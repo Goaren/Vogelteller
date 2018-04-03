@@ -45,7 +45,9 @@
     <Compile Include="Models\Gebied.cs" />
     <Compile Include="Models\Gebruiker.cs" />
     <Compile Include="Models\SoortWaarneming.cs" />
+    <Compile Include="Models\Vogel.cs" />
     <Compile Include="Models\Waarneming.cs" />
+    <Compile Include="Models\Zoogdier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

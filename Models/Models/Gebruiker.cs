@@ -14,7 +14,6 @@ namespace Models.Models
         private string achternaam;
         private string wachtwoord;
         private List<Waarneming> waarnemingen = new List<Waarneming>();
-        private Waarneming waarneming;
 
         public int Id { get { return id; } set { id = value; } }
         public string Email { get { return email; } set { email = value; } }
@@ -31,7 +30,7 @@ namespace Models.Models
             this.wachtwoord = wachtwoord;
         }
 
-        public void MakeWaarneming()
+        public void MakeWaarneming(Waarneming waarneming)
         {
             waarnemingen.Add(waarneming);
         }
